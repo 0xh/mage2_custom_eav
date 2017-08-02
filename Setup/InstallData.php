@@ -61,7 +61,7 @@ class InstallData implements InstallDataInterface {
         );
 
         $employeeSetup->addAttribute(
-            $employeeEntity, 'not', ['type' => 'text']
+            $employeeEntity, 'note', ['type' => 'text']
         );
 
         $setup->endSetup();
